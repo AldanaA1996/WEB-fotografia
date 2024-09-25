@@ -15,7 +15,7 @@ var elements = document.getElementsByClassName("columnas");
 var i;
 
 // Full-width images
-function one() {
+function uno() {
     for (i = 0; i < elements.length; i++) {
     elements[i].style.msFlex = "100%";  // IE10
     elements[i].style.flex = "100%";
@@ -23,7 +23,7 @@ function one() {
 }
 
 // Two images side by side
-function two() {
+function dos() {
   for (i = 0; i < elements.length; i++) {
     elements[i].style.msFlex = "50%";  // IE10
     elements[i].style.flex = "50%";
@@ -31,7 +31,7 @@ function two() {
 }
 
 // Four images side by side
-function tres() {
+function cuatro() {
   for (i = 0; i < elements.length; i++) {
     elements[i].style.msFlex = "25%";  // IE10
     elements[i].style.flex = "25%";
