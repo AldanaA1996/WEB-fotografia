@@ -91,36 +91,33 @@ form {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 50%;
-    padding: 20px;
+    width: 70%;
+    padding: 50px 0;
     border-radius: 5px;
     background-color: rgba(46, 169, 130, 0.160);
     text-align: center;
 }
 
-label {
-    margin-bottom: 10px;
-    font-size: 16px;
-    font-family: "Raleway", sans-serif; ;
-}
+
 
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 70%;
-    height: 30px;
-    padding: auto;
+    width: 60%;
+    height: 40px;
+    padding-left: 15px ;
     margin: auto;
     border: none;
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 16px;
-    font-family: "Raleway", sans-serif; ;
+    font-family: "Raleway", sans-serif;
 }
 
 textarea {
     resize: vertical;
     min-height: 150px;
+    padding-top: 15px;
 }
 
 .btn-form {
